@@ -1,0 +1,207 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+.block-header.wrapper {
+    max-width: 1180px!important;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#header {
+    padding: 0px;
+    position: relative;
+}
+#logo {
+    height: 72px;
+    margin-top: -5px;
+    padding-right: 7px;
+}
+#logo, #logo>img, #menu {
+    float: left;
+}
+@media (min-width: 768px) {
+    #logo {
+        width: 212px;
+        background: url(../../assets/image/japonin-logo-low-res.png) no-repeat;
+        background-size: contain;
+        margin-top: 5px;
+        height: 85px;
+    }
+}
+
+#menubar {
+    /*line-height: 85px;*/
+}
+nav#menu {
+    width: 74%;
+}
+.menu, .menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav#menu ul.menu.menu-dropdown {
+    float: right;
+    width: 90%;
+}
+.menu.menu-dropdown li.level1.item826 {
+    display: none;
+}
+.menu-dropdown li.level1 {
+    margin-right:  10px;
+}
+.menu-dropdown, .menu-dropdown .level1, .menu-dropdown .level1>span {
+    float: left;
+    font-size: 13px;
+}
+.menu-dropdown:first-child .level1:first-child .level1 {
+    border-left: none;
+}
+.menu-dropdown a.level1, .menu-dropdown span.level1 {
+    font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+.menu-dropdown a.level1, .menu-dropdown span.level1 {
+    border-width: 0 1px 0 1px;
+}
+.menu-dropdown li {
+    position: relative;
+}
+.menu-dropdown a.level1, .menu-dropdown span.level1 {
+    padding-bottom: 1px;
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-right-color: #E0E0E0;
+    border-left-color: transparent;
+    font-size: 15px;
+    color: #707070;
+    text-transform: uppercase;
+    padding: 5px;
+    border: none;
+}
+.menu-dropdown li.active .level1 {
+    color: #0081C1;
+    background: #FBFBFB;
+    padding: 25px 10px;
+    border-bottom: 2px solid;
+}
+.menu-dropdown li.parent span{
+    position: relative;
+    top: 10px;
+}
+
+.menu-dropdown .item254  span, .item833 span{
+    position: relative;
+    top: 20px !important;
+}
+
+#search {
+    float: right;
+}
+
+.mod-languagesnoblock li {
+    display: inline-block;
+}
+#block-header {
+    border-bottom: none;
+    background: #FFF;
+}
+
+#menu {
+    margin-top: 40px;
+}
+
+#search {
+    margin-top: 60px;
+}
+
+#slider-wp .owl-controls  {
+    position: relative;
+    bottom: 35px;
+}
+
+.list-button {
+    text-align: center;
+}
+
+.list-button > a {
+    /*padding: 15px 30px;*/
+    /*background: #71B5D8;*/
+    /*border: none;*/
+    /*color: white;*/
+    /*font-size: 18px;*/
+    display: inline-block;
+}
+
+.mod-box-grey {
+    border-color: #DBDBDB;
+    background: #FBFBFB;
+    box-shadow: inset 1px 0px 17px rgb(20 20 20 / 8%);
+    color: #333;
+}
+.mod-box {
+    padding: 20px;
+    border: 1px solid #DBDBDB;
+    background: #FFF;
+    border-bottom: none;
+    border-right: none;
+}
+.module {
+    position: relative;
+    margin: 10px;
+}
+.mod-box .module-title, .mod-line .module-title {
+    color: #0081C1;
+}
+.mod-box .module-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    display: flex;
+}
+.module .module-title .icon {
+    background-image: url(../../assets/image/module_icons.png);
+}
+.module .module-title .icon {
+    top: -8px;
+    left: -2px;
+    width: 33px;
+    height: 33px;
+    margin-right: 7px;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+}
+.module .module-title .icon-bubble {
+    background-position: 0 -120px;
+}
+
+.girl {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.girl .left {
+    width: 400px;
+}
+
+.slide {
+    background: #00689B;
+    padding-bottom: 50px;
+}
+
+.slide .module-title {
+    color: #FFF;
+    border-color: rgba(255,255,255, 0.5);
+    padding: 15px 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #2E98CC;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
